@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/contactMe.js"></script>
+    </head>
+    <div class="navbar">
+        <a href="#Nompumelelo Mtshatsheni">Nompumelelo AKS Mtshatsheni</a>
+        <div class="menu-toggle" id="mobile-menu">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+       </div>
+         <div class="navbar-right">
+           <a href="Home.html">Home</a>
+           <a href="About.html">About</a>
+           <a href="Project.html">Project</a>
+           <a href="#Contact">Contact</a>
+         </div>
+     </div>
+
+    <body>
+      <br>
+      <br>
+      <br>
+        <div class="wrapper-contact">
+            <h3>Contact</h3>
+            <div id="error_message">  
+            </div>
+            <form action="contact" id="myform" onsubmit = "return validate();">
+              <div class="input_field">
+                  Full Name<input type="text" placeholder="" id="name">
+              </div>
+              <div class="input_field">
+                Email Address <input type="text" placeholder="" id="email">
+              </div>
+              <div class="input_field">
+                Mobile Number  <input type="text" placeholder="" id="phone">
+              </div>
+              
+              Country <br>
+              <select id="Country" class="input_field">
+                    <option value="Select" disabled selected>--Select</option>
+                    <option value="Australia">Australia</option>
+                    <option value="South Africa">South  Africa</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                </select>
+              
+              <div class="input_field">
+                Message  <textarea placeholder="" id="message"></textarea>
+              </div>
+              <div class="btn">
+                  <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+          <br> 
+          <br>
+          <br>
+    
+<footer > Copyright &#169; 2020 Nompumelelo Mtshatsheni </footer>       
+    </body>
+</html>
